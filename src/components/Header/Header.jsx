@@ -10,7 +10,7 @@ const navLinks = [
     display: "Home"
   },
   {
-    path: "/doctors",
+    path: "/doctor",
     display: "Find a Doctor"
   },
   {
@@ -19,8 +19,21 @@ const navLinks = [
   },
   {
     path: "/contact",
-    display: "Contact"
+    display: "Contact Us"
+  },
+  {
+    path: "/chatbot",
+    display: "Chatbot"
+  },
+  {
+    path: "/practice",
+    display: "Practice"
+  },
+  {
+    path: "/dayscreen",
+    display: "DayScreen"
   }
+  
 ]
 
 const Header = () => {
